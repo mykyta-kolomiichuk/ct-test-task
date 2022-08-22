@@ -1,0 +1,36 @@
+.pg-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  padding: 1px;
+  border: 2px solid #400076;
+  border-radius: 40px;
+  margin: 0 2px 4px 2px;
+  font-weight: 600;
+  color: #400076;
+  transition-duration: 300ms;
+}
+
+.pg-zero {
+  border: 2px solid #40007624;
+  color: transparent;
+}
+
+.pg-bh {
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(89,0,165,1) 0, rgba(0,0,0,1) 50%);
+}
+
+.pg-closed {
+  border-radius: 5px;
+  background: rgb(177,67,255);
+  background: linear-gradient(205deg, rgba(177,67,255,1) 0%, rgba(89,0,165,1) 100%);
+}
+
+.pg-closed:hover {
+  cursor: pointer;
+  background: rgb(177,67,255);
+  background: linear-gradient(205deg, rgba(177,67,255,1) 0%, rgba(89,0,165,1) 72%);
+}

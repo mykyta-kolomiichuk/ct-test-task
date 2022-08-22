@@ -1,0 +1,13 @@
+.settings {
+  width: 420px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+
+.actions {
+  justify-content: center;
+}
