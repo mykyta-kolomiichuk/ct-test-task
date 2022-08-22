@@ -12,9 +12,9 @@ const GAME_STATE = {
 const Game = memo(() => {
   const [gameState, setGameState] = useState(GAME_STATE.START);
   const [boardOptions, setBoardOptions] = useState({
-    width: 50,
-    height: 50,
-    blackHoles: 20,
+    width: 8,
+    height: 8,
+    blackHoles: 10,
   });
 
   const onGameStart = (options) => {
